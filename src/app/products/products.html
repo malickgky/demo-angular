@@ -1,0 +1,20 @@
+<div class="p-3">
+  <div class="card-body">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>ID</th><th>name</th><th>price</th><th>Selector</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let p of products"">
+        <td>{{p.id}}</td>
+        <td>{{p.name}}</td>
+        <td>{{p.price}}</td>
+        <td>{{p.selector}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
